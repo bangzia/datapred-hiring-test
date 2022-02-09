@@ -20,9 +20,9 @@ function CustomDatePicker({ token }) {
     }
     run(
       client(
-        `flows/1/runs?production_date=${
+        `flows/1/runs?production_date=${encodeURIComponent(
           date.toISOString().split(".")[0] + "Z"
-        }`,
+        )}`,
         {
           token,
         }
