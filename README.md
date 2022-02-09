@@ -4,7 +4,11 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Setup
 
-npm install
+### `npm install`
+
+## Usage
+
+When prompted , authenticate using the credentials given in the project guidelines
 
 ## Available Scripts
 
